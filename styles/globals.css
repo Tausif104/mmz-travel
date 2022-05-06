@@ -1,16 +1,29 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Inter', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-color: #141416;
+	color: #a1a8bb;
+}
+
+p,
 a {
-  color: inherit;
-  text-decoration: none;
+	color: #a1a8bb !important;
 }
 
-* {
-  box-sizing: border-box;
+.team-members {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 }
