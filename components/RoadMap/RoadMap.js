@@ -17,7 +17,7 @@ const RoadMap = () => {
 	return (
 		<section className='road-map-section'>
 			<Container>
-				<Row>
+				<Row className='road-map-title-wrap align-items-center'>
 					<Col md={6}>
 						<div className='section-title'>
 							<h2>
@@ -26,13 +26,15 @@ const RoadMap = () => {
 						</div>
 					</Col>
 					<Col md={6}>
-						<div className='switcher'>
-							<button className={phase === 'phase-one' ? 'active' : ''} onClick={phaseOneTrigger}>
-								Phase 1
-							</button>
-							<button className={phase === 'phase-two' ? 'active' : ''} onClick={phaseTwoTrigger}>
-								Phase 2
-							</button>
+						<div className='switcher-wrap'>
+							<div className='switcher'>
+								<button className={phase === 'phase-one' ? 'active' : ''} onClick={phaseOneTrigger}>
+									Phase 1
+								</button>
+								<button className={phase === 'phase-two' ? 'active' : ''} onClick={phaseTwoTrigger}>
+									Phase 2
+								</button>
+							</div>
 						</div>
 					</Col>
 				</Row>

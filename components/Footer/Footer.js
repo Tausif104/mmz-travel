@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer className='footer-area'>
 			<Container>
 				<Row className='justify-content-center'>
 					<Col md={8}>
@@ -21,8 +21,8 @@ const Footer = () => {
 									</li>
 								</ul>
 							</div>
-							<h4>Get TRIP Development</h4>
-							<h2>Updates straight to your Inbox</h2>
+							<h2>Get TRIP Development</h2>
+							<h3>Updates straight to your Inbox</h3>
 							<div className='newsletter'>
 								<div className='newsletter-form'>
 									<input type='email' placeholder='Enter your email address' />

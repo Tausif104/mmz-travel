@@ -6,7 +6,7 @@ const Faq = () => {
 			<Container>
 				<Row>
 					<Col md={12}>
-						<div className='section-title'>
+						<div className='section-title text-center'>
 							<h2>
 								Frequently <span>Asked Questions</span>
 							</h2>

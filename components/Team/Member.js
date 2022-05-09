@@ -1,7 +1,9 @@
 const Member = ({ image, name, designation, twitter }) => {
 	return (
 		<div className='team-member'>
-			<img src={image} alt='' />
+			<div className="team-author">
+				<img src={image} alt='' />
+			</div>
 			<h4>
 				{name}
 				<a href={twitter}>

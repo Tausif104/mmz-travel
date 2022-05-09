@@ -17,7 +17,7 @@ const Team = () => {
 				<Row>
 					<Col>
 						<div className='section-title text-center'>
-							<h2>Team</h2>
+							<h2><span>Team</span></h2>
 						</div>
 					</Col>
 				</Row>

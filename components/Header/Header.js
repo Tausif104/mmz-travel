@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const Header = () => {
 	return (
-		<header>
-			<Navbar>
+		<header className='header-area'>
+			<Navbar expand="xl">
 				<Container>
 					<Link href='/'>
 						<a>
@@ -16,7 +16,7 @@ const Header = () => {
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
-							<Nav.Link href='#home'>About us</Nav.Link>
+							<Nav.Link href='#link'>About us</Nav.Link>
 							<Nav.Link href='#link'>Road Map</Nav.Link>
 							<Nav.Link href='#link'>Team</Nav.Link>
 							<Nav.Link href='#link'>FAQ</Nav.Link>
