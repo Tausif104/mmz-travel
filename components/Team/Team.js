@@ -16,7 +16,7 @@ const Team = () => {
       <Container>
         <Row>
           <Col>
-            <div className='section-title text-center'>
+            <div className='section-title text-center' data-aos="fade-in">
               <h2>
                 <span>Team</span>
               </h2>
@@ -26,7 +26,7 @@ const Team = () => {
         <Row>
           <Col md={12}>
             {/* grid */}
-            <div className='team-members'>
+            <div className='team-members' data-aos="fade-up" data-aos-delay="100">
               <Member image={ImageOne.src} name='Imad' designation='Co-founder/Business Dev' twitter='https://twitter.com' linkedIn='https://linkedin.com/' />
               <Member image={ImageTwo.src} name='Reda' designation='Co-founder/Project Strategist' twitter='https://twitter.com' linkedIn='https://linkedin.com/' />
               <Member image={ImageThree.src} name='Kacie' designation='Web3 Developer' twitter='https://twitter.com' linkedIn='https://linkedin.com/' />

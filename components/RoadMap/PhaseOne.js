@@ -9,7 +9,7 @@ const PhaseOne = () => {
 	return (
 		<div className='grid-wrapper phase-one'>
 			{/* single phase-one  */}
-			<div className='phase-item'>
+			<div className='phase-item' data-aos="fade-up">
 				<div className='phase-icon'>
 					<img src={ImageOne.src} alt='' />
 				</div>
@@ -17,7 +17,7 @@ const PhaseOne = () => {
 				<p>TRIP Genesis Pass will be minted on the Ethereum blockchain</p>
 			</div>
 			{/* single phase-one  */}
-			<div className='phase-item'>
+			<div className='phase-item' data-aos="fade-up" data-aos-delay="100">
 				<div className='phase-icon'>
 					<img src={ImageTwo.src} alt='' />
 				</div>
@@ -25,7 +25,7 @@ const PhaseOne = () => {
 				<p>Lifetime access to the TRIP Community. Plan your itineraries, learn travel hacks, connect with other travellers.</p>
 			</div>
 			{/* single phase-one  */}
-			<div className='phase-item'>
+			<div className='phase-item' data-aos="fade-up" data-aos-delay="150">
 				<div className='phase-icon'>
 					<img src={ImageThree.src} alt='' />
 				</div>
@@ -33,7 +33,7 @@ const PhaseOne = () => {
 				<p>Receive access to Exclusive negotiated rates and privileges with travel-related companies.</p>
 			</div>
 			{/* single phase-one  */}
-			<div className='phase-item'>
+			<div className='phase-item' data-aos="fade-up" data-aos-delay="200">
 				<div className='phase-icon'>
 					<img src={ImageFour.src} alt='' />
 				</div>
@@ -41,7 +41,7 @@ const PhaseOne = () => {
 				<p>TRIP Holders get exclusive access to flights and travel experience giveaway.</p>
 			</div>
 			{/* single phase-one  */}
-			<div className='phase-item'>
+			<div className='phase-item' data-aos="fade-up" data-aos-delay="250">
 				<div className='phase-icon'>
 					<img src={ImageFive.src} alt='' />
 				</div>

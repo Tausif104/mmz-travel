@@ -9,7 +9,7 @@ const Banner = () => {
 			<Container>
 				<Row>
 					<Col lg={6}>
-						<div className='banner-text'>
+						<div className='banner-text' data-aos="fade-right">
 							<h1>
 								Get Ready <span>for Take-Off</span>
 							</h1>
@@ -21,7 +21,7 @@ const Banner = () => {
 						</div>
 					</Col>
 					<Col lg={6}>
-						<div className='banner-card'>
+						<div className='banner-card' data-aos="fade-left">
 							<img className='img-fluid' src={BannerCard.src} alt='banner-card.png' />
 						</div>
 					</Col>

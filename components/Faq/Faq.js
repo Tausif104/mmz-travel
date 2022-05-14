@@ -6,14 +6,14 @@ const Faq = () => {
       <Container>
         <Row>
           <Col md={12}>
-            <div className='section-title text-center'>
+            <div className='section-title text-center' data-aos="fade-up">
               <h2>
                 Frequently <span>Asked Questions</span>
               </h2>
             </div>
           </Col>
           <Col md={12}>
-            <div className='faq-accordions'>
+            <div className='faq-accordions' data-aos="fade-up" data-aos-delay="100">
               <Accordion>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>1. What is TRIP?</Accordion.Header>

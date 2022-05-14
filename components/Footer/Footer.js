@@ -6,7 +6,7 @@ const Footer = () => {
 			<Container>
 				<Row className='justify-content-center'>
 					<Col md={8}>
-						<div className='footer-content'>
+						<div className='footer-content' data-aos="fade-in">
 							<div className='footer-social'>
 								<ul>
 									<li>

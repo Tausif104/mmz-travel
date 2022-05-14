@@ -15,7 +15,7 @@ const AboutUs = () => {
       <Container>
         <Row className='justify-content-center'>
           <Col md={10}>
-            <div className='section-title text-center'>
+            <div className='section-title text-center' data-aos="fade-up">
               <h2>
                 <span>About</span> Us
               </h2>

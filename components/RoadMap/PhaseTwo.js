@@ -9,7 +9,7 @@ const PhaseTwo = () => {
   return (
     <div className='grid-wrapper phase-one'>
       {/* single phase-one  */}
-      <div className='phase-item'>
+      <div className='phase-item'  data-aos="fade-up">
         <div className='phase-icon'>
           <img src={ImageOne.src} alt='' />
         </div>
@@ -17,7 +17,7 @@ const PhaseTwo = () => {
         <p>Holders will get first access for the future collection</p>
       </div>
       {/* single phase-one  */}
-      <div className='phase-item'>
+      <div className='phase-item'  data-aos="fade-up" data-aos-delay="100">
         <div className='phase-icon'>
           <img src={ImageTwo.src} alt='' />
         </div>

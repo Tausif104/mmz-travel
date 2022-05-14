@@ -6,7 +6,7 @@ const UtilityToken = () => {
 	return (
 		<section className='utility-token-section'>
 			<Container>
-				<Row className='justify-content-center'>
+				<Row className='justify-content-center' data-aos="fade-up">
 					<Col md={12}>
 						<div className='utility-token-box'>
 							<div className='section-title text-center'>
@@ -33,9 +33,9 @@ const UtilityToken = () => {
 											</p>
 											<div className='utility-bottom'>
 												<p>165 $TRIP</p>
-												<a href='' className='primary-btn'>
+												<span className='primary-btn'>
 													Claim
-												</a>
+												</span>
 											</div>
 										</div>
 									</div>

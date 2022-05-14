@@ -210,14 +210,15 @@ animation-delay: 1.4s; }
 .delay-15 {
 animation-delay: 1.5s; }
 
-header.header-area {
-    position: absolute;
-    width: 100%;
-    background: #141416;
-}
-
 /* Start Header area style
 ============================================================================================ */
+.header-area.is-sticky {
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #13211C;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
 .header-area {
 	position: absolute;
 	z-index: 999;
@@ -238,9 +239,6 @@ header.header-area {
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s; 
-}
-.header-area.active {
-	box-shadow: 0 5px 10px #dddddd1a; 
 }
 .header-area .navbar {
 	background: transparent;
@@ -387,6 +385,14 @@ header.header-area {
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+.phone-image {
+    transition: .3s;
+}
+
+.phone-image:hover {
+    transform: scale(1.05);
 }
 
 .background-cards {
@@ -709,6 +715,7 @@ header.header-area {
     border-radius: 54px;
     padding: 0 30px;
     line-height: 71px;
+    color: #fff;
 }
 
 .newsletter-form input[type="submit"] {
