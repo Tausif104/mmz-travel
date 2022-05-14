@@ -6,50 +6,29 @@ import ImageFour from './images/phase-one/4.png'
 import ImageFive from './images/phase-one/5.png'
 
 const PhaseTwo = () => {
-	return (
-		<div className='grid-wrapper phase-one'>
-			{/* single phase-one  */}
-			<div className='phase-item'>
-				<div className='phase-icon'>
-					<img src={ImageOne.src} alt='' />
-				</div>
-				<h4>Take-Off 2</h4>
-				<p>TRIP Genesis Pass will be minted on the Ethereum blockchain</p>
-			</div>
-			{/* single phase-one  */}
-			<div className='phase-item'>
-				<div className='phase-icon'>
-					<img src={ImageTwo.src} alt='' />
-				</div>
-				<h4>Community 2</h4>
-				<p>Lifetime access to the TRIP Community. Plan your itineraries, learn travel hacks, connect with other travellers.</p>
-			</div>
-			{/* single phase-one  */}
-			<div className='phase-item'>
-				<div className='phase-icon'>
-					<img src={ImageThree.src} alt='' />
-				</div>
-				<h4>Perks and benefits 2</h4>
-				<p>Receive access to Exclusive negotiated rates and privileges with travel-related companies.</p>
-			</div>
-			{/* single phase-one  */}
-			<div className='phase-item'>
-				<div className='phase-icon'>
-					<img src={ImageFour.src} alt='' />
-				</div>
-				<h4>Giveaway 2</h4>
-				<p>TRIP Holders get exclusive access to flights and travel experience giveaway.</p>
-			</div>
-			{/* single phase-one  */}
-			<div className='phase-item'>
-				<div className='phase-icon'>
-					<img src={ImageFive.src} alt='' />
-				</div>
-				<h4>IRL Event 2</h4>
-				<p>TRIP NFTs also serve as free passes to all TRIP yearly in-real-life events and community meetups.</p>
-			</div>
-		</div>
-	)
+  return (
+    <div className='grid-wrapper phase-one'>
+      {/* single phase-one  */}
+      <div className='phase-item'>
+        <div className='phase-icon'>
+          <img src={ImageOne.src} alt='' />
+        </div>
+        <h4>Genesis Passport mint</h4>
+        <p>Holders will get first access for the future collection</p>
+      </div>
+      {/* single phase-one  */}
+      <div className='phase-item'>
+        <div className='phase-icon'>
+          <img src={ImageTwo.src} alt='' />
+        </div>
+        <h4>Beta access to the platform</h4>
+        <p>
+          Travel more Pay less! The more one uses the genesis pass to make purchases, the higher the token drop rate becomes. Personalized traveling experience. We are shaping the platform to reflect
+          the users preferences. And this is not everything, our community on discord acts as a major partner in this Travel to Earn journey.
+        </p>
+      </div>
+    </div>
+  )
 }
 
 export default PhaseTwo
