@@ -306,6 +306,15 @@ animation-delay: 1.5s; }
     border-radius: 14px;
 }
 
+.header-area .logo-wrap {
+    margin-top: 7px;
+}
+
+.header-area .navbar-collapse {
+    margin-top: -7px;
+}
+
+
 /* Start Banner area style
 ============================================================================================ */
 .banner-section {
@@ -333,7 +342,7 @@ animation-delay: 1.5s; }
     margin-bottom: 40px;
 }
 
-.banner-text .banner-btn {
+.banner-section .banner-btn {
     background: #3B71FE;
     display: inline-flex;
     align-items: center;
@@ -349,7 +358,7 @@ animation-delay: 1.5s; }
     padding: 10px;
 }
 
-.banner-text .banner-btn i, .banner-text .banner-btn span {
+.banner-section .banner-btn i, .banner-section .banner-btn span {
     background: rgba(255, 255, 255, 0.3);
     height: 50px;
     width: 50px;
@@ -363,11 +372,11 @@ animation-delay: 1.5s; }
     margin-right: 15px;
 }
 
-.banner-text .banner-btn span {
+.banner-section .banner-btn span {
     cursor: pointer;
 }
 
-.banner-text .banner-btn i.right-icon, .banner-text .banner-btn span.right-icon {
+.banner-section .banner-btn i.right-icon, .banner-section .banner-btn span.right-icon {
     margin-right: 0;
     margin-left: 15px;
 }
@@ -404,10 +413,15 @@ animation-delay: 1.5s; }
     overflow: hidden;
     padding: 265px 0 0;
 }
+
 .banner-card {
     margin-left: -100px;
     margin-right: -80px;
     margin-top: -40px;
+}
+
+.banner-section .banner-btn.mobile-btn {
+    display: none;
 }
 
 /* Start About area style
@@ -956,7 +970,7 @@ animation-delay: 1.5s; }
 @media (max-width: 1199px) {
     .header-area {
         background: transparent;
-        padding: 10px 0;
+        padding: 10px 0 3px;
     }
     .sticky-wrapper.is-sticky .header-area {
         padding: 5px 0;
@@ -976,12 +990,9 @@ animation-delay: 1.5s; }
     .navbar-toggler {
         border: none;
         border-radius: 0px;
-        padding: 0px;
         cursor: pointer;
-        height: 40px;
-        width: 50px;
-        background: #fff;
         border-radius: 3px;
+        margin-top: -7px;
     }
     .navbar-toggler:focus {
         outline: none;
@@ -1079,6 +1090,9 @@ animation-delay: 1.5s; }
     .banner-section.mint-banner {
         padding: 150px 0 0;
     }
+    .header-area .header-btn {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1119,6 +1133,22 @@ animation-delay: 1.5s; }
     }
     .banner-section.mint-banner {
         padding: 120px 0 0;
+    }
+    .banner-section .banner-btn.mobile-btn {
+        display: inline-flex;
+    }
+    .banner-section .banner-btn.desktop-btn {
+        display: none;
+    }
+    .banner-section .banner-btn i, .banner-section .banner-btn span {
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        min-width: 40px;
+    }
+    .banner-section .banner-btn {
+        border-radius: 10px;
     }
 }
 

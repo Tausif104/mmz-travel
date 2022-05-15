@@ -29,10 +29,10 @@ const Header = () => {
   
   return (
     <header className={`header-area ${open ? "active" : ""} ${isSticky ? "is-sticky" : ""}`}>
-      <Navbar expand='xl'>
+      <Navbar expand='xl' variant="dark">
         <Container>
           <Link href='/'>
-            <a>
+            <a className='logo-wrap'>
               <Image src={Logo.src} width='100px' height='50px' alt=''/>
             </a>
           </Link>

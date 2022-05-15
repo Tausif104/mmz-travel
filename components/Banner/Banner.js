@@ -14,7 +14,7 @@ const Banner = () => {
 								Get Ready <br /> <span>for Take-Off</span>
 							</h1>
 							<p>The NFT Every Travellers Needs</p>
-							<a className='banner-btn' href='#'>
+							<a className='banner-btn desktop-btn' href='#'>
 								<i className='fab fa-discord'></i> Join Discord
 							</a>
 							<img className='banner-plane' src={Plane.src} alt='' />
@@ -24,6 +24,9 @@ const Banner = () => {
 						<div className='banner-card' data-aos="fade-left">
 							<img className='img-fluid' src={BannerCard.src} alt='banner-card.gif' />
 						</div>
+						<a className='banner-btn mobile-btn' href='#'>
+							<i className='fab fa-discord'></i> Join Discord
+						</a>
 					</Col>
 				</Row>
 			</Container>
