@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import BannerShape from './banner-shape.png'
-import BannerCard from './card.png'
+import BannerCard from './card.gif'
 import Plane from './plane.png'
 
 const Banner = () => {
@@ -11,10 +11,10 @@ const Banner = () => {
 					<Col lg={6}>
 						<div className='banner-text' data-aos="fade-right">
 							<h1>
-								Get Ready <span>for Take-Off</span>
+								Get Ready <br /> <span>for Take-Off</span>
 							</h1>
 							<p>The NFT Every Travellers Needs</p>
-							<a href='#'>
+							<a className='banner-btn' href='#'>
 								<i className='fab fa-discord'></i> Join Discord
 							</a>
 							<img className='banner-plane' src={Plane.src} alt='' />

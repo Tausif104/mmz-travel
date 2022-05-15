@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import CardUtility from './card-utility.png'
+import CardUtility from './card.gif'
 import Gold from './gold.svg'
 
 const UtilityToken = () => {
@@ -33,9 +33,9 @@ const UtilityToken = () => {
 											</p>
 											<div className='utility-bottom'>
 												<p>165 $TRIP</p>
-												<span className='primary-btn'>
+												<a href="#" className='primary-btn'>
 													Claim
-												</span>
+												</a>
 											</div>
 										</div>
 									</div>

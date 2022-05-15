@@ -6,12 +6,13 @@ const Member = ({ image, name, designation, twitter, linkedIn }) => {
       </div>
       <h4>
         {name}
-        <a rel='noreferrer' target='_blank' href={twitter}>
+        {linkedIn && <a rel='noreferrer' target='_blank' href={linkedIn}>
+          <i className='fab fa-linkedin'></i>
+        </a>}
+        
+        {twitter && <a rel='noreferrer' target='_blank' href={twitter}>
           <i className='fab fa-twitter'></i>
-        </a>
-        <a rel='noreferrer' target='_blank' href={linkedIn}>
-          <i className='fab fa-linkedin-in'></i>
-        </a>
+        </a>}
       </h4>
       <p>{designation}</p>
     </div>

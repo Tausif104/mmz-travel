@@ -1,8 +1,8 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Phones from './phones.png'
-import CardOne from './cards/1.png'
-import CardTwo from './cards/2.png'
-import CardThree from './cards/3.png'
+import CardOne from './cards/card.gif'
+import CardTwo from './cards/card.gif'
+import CardThree from './cards/card.gif'
 
 const AboutUs = () => {
   return (
