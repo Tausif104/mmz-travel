@@ -24,9 +24,11 @@ const Banner = () => {
 						<div className='banner-card' data-aos="fade-left">
 							<img className='img-fluid' src={BannerCard.src} alt='banner-card.gif' />
 						</div>
-						<a className='banner-btn mobile-btn' href='#'>
-							<i className='fab fa-discord'></i> Join Discord
-						</a>
+						<div className="mobile-btn-wrap">
+							<a className='banner-btn mobile-btn' href='#'>
+								<i className='fab fa-discord'></i> Join Discord
+							</a>
+						</div>
 					</Col>
 				</Row>
 			</Container>

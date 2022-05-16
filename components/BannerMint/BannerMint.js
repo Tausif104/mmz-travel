@@ -25,7 +25,7 @@ const Banner = () => {
 							<h1>
 							Mint Your <span>TRIP NFT Genesis Pass</span>
 							</h1>
-							<p>The NFT Every Travellers Needs</p>
+							<p><span>3333</span> Genesis Pass Remaining</p>
 							<div className='banner-btn desktop-btn'>
 								<span onClick={() => handleDecreaseCount()} className='fas fa-minus'></span> 
 									Mint {mint} Pass @ { Number(mint * pass).toFixed(2)} ETH 
@@ -38,10 +38,12 @@ const Banner = () => {
 						<div className='banner-card' data-aos="fade-left">
 							<img className='img-fluid' src={BannerCard.src} alt='banner-card.gif' />
 						</div>
-						<div className='banner-btn mobile-btn'>
-							<span onClick={() => handleDecreaseCount()} className='fas fa-minus'></span> 
-								Mint {mint} Pass @ { Number(mint * pass).toFixed(2)} ETH 
-							<span  onClick={() => handleIncreaseCount()}  className='right-icon fas fa-plus'></span>
+						<div className="mobile-btn-wrap">
+							<div className='banner-btn mobile-btn'>
+								<span onClick={() => handleDecreaseCount()} className='fas fa-minus'></span> 
+									Mint {mint} Pass @ { Number(mint * pass).toFixed(2)} ETH 
+								<span  onClick={() => handleIncreaseCount()}  className='right-icon fas fa-plus'></span>
+							</div>
 						</div>
 					</Col>
 				</Row>

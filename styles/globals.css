@@ -844,7 +844,10 @@ animation-delay: 1.5s; }
     margin-right: 0;
     margin-left: 15px;
 }
-
+.banner-text p span {
+    color: #fff;
+    font-weight: 700;
+}
 
 /* Start responsive area style
 ============================================================================================ */
@@ -1149,6 +1152,9 @@ animation-delay: 1.5s; }
     }
     .banner-section .banner-btn {
         border-radius: 10px;
+    }
+    .mobile-btn-wrap {
+        text-align: center;
     }
 }
 
