@@ -14,7 +14,7 @@ const Banner = () => {
 								Get Ready <br /> <span>for Take-Off</span>
 							</h1>
 							<p>The NFT Every Travellers Needs</p>
-							<a className='banner-btn desktop-btn' href='#'>
+							<a className='banner-btn desktop-btn' href='https://discord.gg/tripnft'>
 								<i className='fab fa-discord'></i> Join Discord
 							</a>
 							<img className='banner-plane' src={Plane.src} alt='' />

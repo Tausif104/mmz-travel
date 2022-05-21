@@ -27,18 +27,18 @@ const Team = () => {
           <Col md={12}>
             {/* grid */}
             <div className='team-members' data-aos="fade-up" data-aos-delay="100">
-              <Member image={ImageOne.src} name='Imad' designation='Co-founder/Business Dev' linkedIn='https://linkedin.com' twitter='https://twitter.com' />
-              <Member image={ImageTwo.src} name='Reda' designation='Co-founder/Project Strategist' twitter='https://twitter.com' linkedIn='https://linkedin.com/' />
-              <Member image={ImageThree.src} name='Kacie' designation='Web3 Developer' twitter='https://twitter.com' />
-              <Member image={ImageFour.src} name='Mary Beth' designation='Media expert &amp; Public Relations' twitter='https://twitter.com' />
-              <Member image={ImageFive.src} name='Gregory' designation='Community Building &amp; Operations' twitter='https://twitter.com' />
+              <Member image={ImageOne.src} name='Imad' designation='Co-founder / Business Dev' linkedIn='https://linkedin.com' twitter='https://twitter.com/artsyqalll ' />
+              <Member image={ImageTwo.src} name='Reda' designation='Co-Founder / Project Strategist' twitter='https://twitter.com/LancelotHG' linkedIn='https://linkedin.com/' />
+              <Member image={ImageThree.src} name='Kacie' designation='Web3 Developer' twitter='https://twitter.com/Haezurath' />
+              <Member image={ImageFour.src} name='Mary Beth' designation='Media expert &amp; Public Relations' twitter='https://twitter.com/MaryBethSales' />
+              <Member image={ImageFive.src} name='Gregory' designation='Community Building &amp; Operations' twitter='https://twitter.com/spiringNobody' />
               
             </div>
             <div className='team-members columns4' data-aos="fade-up" data-aos-delay="100">
               <Member image={ImageSix.src} name='Ann' designation='Web Designer' />
-              <Member image={ImageSeven.src} name='Sharbel' designation='Advisor' twitter='https://twitter.com' />
-              <Member image={ImageEight.src} name='Leon' designation='Advisor' linkedIn='https://linkedin.com/' />
-              <Member image={ImageNine.src} name='Joey' designation='Community Manager' twitter='https://twitter.com' />
+              <Member image={ImageSeven.src} name='Sharbel' designation='Advisor' twitter='https://twitter.com/crypto__kermit ' />
+              <Member image={ImageEight.src} name='Leon' designation='Advisor' twitter='https://twitter.com/heythisisleon' linkedIn='https://linkedin.com/' />
+              <Member image={ImageNine.src} name='Joey' designation='Community Manager' twitter='https://twitter.com/CryptoTamsn' />
             </div>
           </Col>
         </Row>

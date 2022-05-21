@@ -48,12 +48,12 @@ const Header = () => {
 
             <ul className='social-media'>
               <li>
-                <a href=''>
+                <a href='https://twitter.com/TRIP_NFT'>
                   <i className='fab fa-twitter'></i>
                 </a>
               </li>
               <li>
-                <a href=''>
+                <a href='https://discord.gg/tripnft'>
                   <i className='fab fa-discord'></i>
                 </a>
               </li>
